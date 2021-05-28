@@ -1,11 +1,9 @@
 class Question {
-  late String questionText;
-  late bool answer;
+  String? questionText;
+  bool? answer;
 
-  Question({required String q, required bool a}) {
-    questionText = q;
-    answer = a;
-  }
+  // constructor
+  Question({this.questionText, this.answer});
 }
 
-Question newQuestion = Question(q: 'text', a: true);
+// Question newQuestion = Question(q: 'text', a: true);
