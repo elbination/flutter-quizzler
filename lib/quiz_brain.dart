@@ -6,13 +6,13 @@ class QuizBrain {
 
   // Private list with _***
   final List<Question> _questionBank = [
-    Question(questionText: 'Question 1', answer: true),
-    Question(questionText: 'Question 2', answer: false),
-    Question(questionText: 'Question 3', answer: true),
-    Question(questionText: 'Question 4', answer: false),
-    Question(questionText: 'Question 5', answer: true),
-    Question(questionText: 'Question 6', answer: false),
-    Question(questionText: 'Question 7', answer: false),
+    Question('Question 1', true),
+    Question('Question 2', false),
+    Question('Question 3', true),
+    Question('Question 4', false),
+    Question('Question 5', true),
+    Question('Question 6', false),
+    Question('Question 7', false),
   ];
 
   void nextQuestion() {
